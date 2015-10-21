@@ -25,6 +25,8 @@ RUN \
         libssl-dev \
         nodejs \
         npm \
+        git-core \
+        vim-tiny \
     && apt-get autoremove \
     && apt-get clean \
     && rm -r /var/lib/apt/lists/*
