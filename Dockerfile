@@ -27,6 +27,7 @@ RUN \
         npm \
         git-core \
         vim-tiny \
+        zip unzip \
     && apt-get autoremove \
     && apt-get clean \
     && rm -r /var/lib/apt/lists/*
